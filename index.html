@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isaac Okubo Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" />
+
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Isaac Okubo</h1>
+
+          <p class="title">Fullstack Software Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">okuboisaac758@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+254726530968" class="contact-link">+254726530968</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Nairobi, Kenya</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+         
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+           I'm a recent graduate with a passion for crafting immersive and user-friendly digital experiences. My journey in the dynamic world of front-end development has equipped me with a solid foundation in HTML, CSS, and JavaScript, along with hands-on experience in various front-end frameworks such as React.js.
+          </p>
+
+          <p>
+            I thrive on the challenges that come with turning ideas into interactive, functional, and aesthetically pleasing websites. My commitment to staying current with emerging technologies ensures that I bring innovative solutions to the forefront of my projects.
+          </p>
+          <p>Outside of coding, you'll find me exploring new design trends, contributing to open-source projects, and seeking opportunities to collaborate with fellow developers. I am excited to leverage my skills and creativity to contribute meaningfully to the ever-evolving field of front-end development.
+           </p>
+          <p>Let's build something incredible together!</p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h2 class="h2 article-title">Qualities</h2>
+
+          <ul class="service-list">
+            <ol class="skill-list">
+                <li>Time management</li>
+                <li>Problem solving</li>
+                <li>Creativity</li>
+                <li>Computer skills</li>
+                <li>Adaptability</li>
+                <li>Ability to work in a team</li>
+                <li>Analytical skills</li>
+                <li>Decision making</li>
+                <li>Communication</li>
+               
+            </ol>
+        </ul>
+        
+        
+
+        </section>
+
+
+        
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institute of software technologies</h4>
+              <h4 class="h4 timeline-item-Certificate">Diploma in Fullstack Software development</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                Completed a comprehensive full-stack software development program, gaining proficiency in both front-end and back-end technologies.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Acquired practical experience through hands-on projects.
+              </p>
+               <br>
+              <p class="timeline-text">
+                Developed skills in HTML, CSS, JavaScript, and utilized frameworks such as Django, Laravel and Flask for efficient full-stack development.
+              </p>
+              
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Institute of Software technologies</h4>
+              <h4 class="h4 timeline-item-Certificate">Certificate in Software Development</h4>
+
+              <span>2021 — 2022</span>
+
+              <p class="timeline-text">
+                Studied key concepts and practical skills related to software engineering.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Completed a comprehensive certificate program focused on software development and acquired a solid foundation in software engineering principles.
+              </p>
+
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bishop Mazzoldi High school</h4>
+             <h4 class="h4 timeline-item-Certificate">KCSE certificate</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Graduated with a High School Certificate.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Successfully completed the Kenyan Certificate of Secondary Education (KCSE).
+              </p>
+              <br>
+              <p class="timeline-text">
+                Attained foundational knowledge in a variety of subjects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Frontend Developer</h4>
+
+              <span>04/2024 – 5/2024 | Nairobi, Kenya</span>
+
+              <p class="timeline-text">
+                Successfully transitioned from a strong foundation in front-end development (HTML, 
+CSS, JavaScript) to proficiently utilising React for building dynamic and user-friendly 
+web applications. (whtanetworks.com)
+              </p>
+              <br>
+              <p class="timeline-text">
+                Collaborated with designers to transform UI/UX mockups into responsive and 
+interactive web interfaces
+              </p>
+              <br>
+              <p class="timeline-text">
+                Developed reusable and maintainable React components.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Debugged and resolved frontend issues to ensure optimal performance across various 
+                browsers and devices.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelance Web Developer</h4>
+
+              <span>01/2022 – present | Nairobi, Kenya</span>
+
+              <p class="timeline-text">
+                Coded websites using HTML, CSS, JavaScript, and jQuery languages.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Multi-tasked across multiple functions and roles to meet deadlines and organizational expectations.
+              </p>
+              <br>
+              <p class="timeline-text">
+                Oversaw technical issues and troubleshooting requests to resolve user problems.
+              </p>
+              <br>
+              <p class="timeline-text">
+               Designed, implemented and monitored web pages,plugins and functionality for continuous improvement
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer Assistant</h4>
+
+              <span>07/2020 – 11/2021</span>
+
+              <p class="timeline-text">
+                Helped me learn the flow of a working environment .
+              </p>
+              <br>
+              <p class="timeline-text">
+                Picked up skills on how to repair minor computer issues and a few major computer issues in both hardware and software.
+              </p>
+              <br>
+              <p class="timeline-text">
+               Assisted in light coding and in hardware repairs which ignited most of my interest in computers.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h2 class="h2 article-title">Stats</h2>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="80">90%</data>
+              </div>
+              
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+             <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="80">80%</data>
+              </div>
+              
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="90">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React</h5>
+                <data value="80">70%</data>
+              </div>
+              
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+         
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tailwind Css</h5>
+                <data value="80">60%</data>
+              </div>
+              
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Figma</h5>
+                <data value="80">40%</data>
+              </div>
+              
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+           
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Design</button>
+            </li>
+
+           
+
+            
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+            
+
+             
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+           
+
+            
+
+            <li class="project-item active" data-filter-item data-category="web design">
+              <a href="#" onclick="openLightbox(this)">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">WHTA</h3>
+                <p class="project-category">Company site </p>
+              </a>
+            </li>
+            
+            <!-- Lightbox HTML -->
+            <div id="lightbox" class="lightbox">
+              <img src="" alt="" id="lightbox-img">
+              <button onclick="prevImage()" class="lightbox-btn prev-btn">&#10094;</button>
+              <button onclick="nextImage()" class="lightbox-btn next-btn">&#10095;</button>
+              <button onclick="closeLightbox()" class="lightbox-btn close-btn">&times;</button>
+            </div>
+            
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#" onclick="openLightbox(this)">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IRON FORGE FITNESS</h3>
+
+                <p class="project-category">Fitness website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#" onclick="openLightbox(this)">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="arthenaeum" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arthenaeum</h3>
+
+                <p class="project-category">Art website</p>
+
+              </a>
+            </li>
+
+
+            
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+   
+
+
+
+
+      
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
